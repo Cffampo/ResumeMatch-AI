@@ -1,9 +1,9 @@
 # 📄 ResumeMatch AI
 
-<img width="3199" height="799" alt="Screenshot 2026-05-06 140506" src="https://github.com/user-attachments/assets/234c5526-ef7c-477b-a131-117f19e1800c" />
-
-
 > An intelligent resume analyzer powered by Google Gemini that delivers ATS-style feedback, skill gap analysis, and actionable career coaching — in seconds.
+
+<img width="3199" height="799" alt="Screenshot 2026-05-06 140506" src="https://github.com/user-attachments/assets/dd910d1a-67e4-4c97-a9b7-ce18dd1665d4" />
+
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.x-FF4B4B?style=flat&logo=streamlit&logoColor=white)
@@ -73,25 +73,34 @@ Structured prompt sent to Gemini Flash
 git clone https://github.com/yourusername/resumematch-ai.git
 cd resumematch-ai
 
+# Create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
 # Install dependencies
-pip install -r requirements.txt
+pip install streamlit google-generativeai PyPDF2 python-dotenv pandas
 
 # Set up your environment variables
 cp .env.example .env
 # Add your GEMINI_API_KEY to .env
 
 # Run the app
-streamlit run app.py
+streamlit run main.py
 ```
 
-### Requirements
+---
+
+## 🗂️ Project Structure
 
 ```
-streamlit
-google-generativeai
-PyPDF2
-python-dotenv
-pandas
+AI Resume Analyzer/
+├── .env.example        # Environment variable template
+├── .gitignore
+├── .streamlit/
+│   └── config.toml     # Streamlit theme/config
+├── main.py             # Main application
+├── README.md
+└── venv/               # Virtual environment (not committed)
 ```
 
 ---
