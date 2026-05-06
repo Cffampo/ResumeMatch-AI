@@ -133,13 +133,6 @@ Get a free key at [aistudio.google.com](https://aistudio.google.com).
 - [ ] Persistent history with a database backend
 - [ ] Cover letter generation based on gap analysis
 
----
-
-## 👤 Author
-
-Built by **[Your Name]** — feel free to connect on [LinkedIn](https://linkedin.com/in/yourprofile) or check out my other projects on [GitHub](https://github.com/yourusername).
-
----
 
 ## 📄 License
 
