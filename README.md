@@ -125,17 +125,3 @@ Get a free key at [aistudio.google.com](https://aistudio.google.com).
 4. **Review** the AI-generated analysis, score breakdown, and chart
 5. **Download** the full report
 
----
-
-## 🔮 Future Improvements
-
-- [ ] Support for `.docx` resume uploads
-- [ ] Side-by-side diff view of resume vs. job description keywords
-- [ ] Multiple job description comparison
-- [ ] Persistent history with a database backend
-- [ ] Cover letter generation based on gap analysis
-
-
-## 📄 License
-
-MIT — free to use, modify, and distribute.
